@@ -1,0 +1,136 @@
+/* ========= GOOGLE FONTS ========  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+html{
+  background-color: #F2F2F2;
+}
+
+/* ======= COLORS ======= */
+:root {
+  /* background-color: #; */
+  --main-color: #121212;
+  --orange-primary: #ffc18a;
+  --orange-secondary: #fff6ee;
+  --blue-primary: #8a8aff;
+  --blue-secondary: #f0f0ff;
+  --red-primary: #ff8aa1;
+  --red-secondary: #fff0f3;
+  --sky-primary: #8ad6ff;
+  --sky-secondary: #eef9ff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  /* background-color: ; */
+}
+
+.container-fluid {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h2{
+  display: grid;
+  place-items: center;
+}
+
+.container-fluid h2 {
+  color: var(--main-color);
+  position: relative;
+  width: 23rem;
+}
+
+.accordion {
+  width: 100%;
+  padding: 12px 5px;
+  cursor: pointer;
+  border-radius: 10px;
+  display: flex;
+  margin: 10px 0;
+}
+
+.q1 {
+  border: 3px solid var(--orange-primary);
+  background-color: var(--orange-secondary);
+}
+
+.q2 {
+  border: 3px solid var(--blue-primary);
+  background-color: var(--blue-secondary);
+}
+
+.q3 {
+  border: 3px solid var(--red-primary);
+  background-color: var(--red-secondary);
+}
+
+.q4 {
+  border: 3px solid var(--sky-primary);
+  background-color: var(--sky-secondary);
+}
+
+#icon{
+  font-size: 1rem;
+}
+
+#icon .active{
+  transform: rotate(45deg);
+
+}
+
+h5 {
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.panel {
+  padding: 0 15px;
+  margin-left: 25px;
+  text-align: justify;
+  overflow: hidden;
+  max-height: 0;
+  transition: all .5s ease-in;
+}
+
+.show{
+    max-height: 300;
+}
+
+.p1 {
+  border-left: 3px solid var(--orange-primary);
+}
+
+.p2 {
+  border-left: 3px solid var(--blue-primary);
+}
+
+.p3 {
+  border-left: 3px solid var(--red-primary);
+}
+
+.p4 {
+  border-left: 3px solid var(--sky-primary);
+}
+
+
+
+
+/* Rotate */
+.mystyle {
+  transform: rotate(45deg);
+  transition: 1s;
+}
+.mystyleInvert {
+  transform: rotate(0deg);
+  transition: 1s;
+}

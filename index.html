@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ========== BOXICONS ========= -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <!-- ========= CSS =========  -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- ========= TITLE =========  -->
+    <title>Accordion</title>
+</head>
+<body>
+    
+<div class="container-fluid">
+    <h2>FAQs</h2>
+    <!-- ===== QUESTION-1 ===== -->
+    <div onclick="myFunction1()" class="accordion q1" id="accordion" onclick="rotateFunction()">
+        <div id="q1" class="icon"><i id="icon" class='bx bx-plus rotate'></i></div>
+        <h5>Who am I?</h5>
+    </div>
+    <div class="panel p1">
+        <p>My name is Omar Dakelbab. I'm freelance web developer
+            & Content Creator. I love teaching through my posts.
+            I teach in a very unique way.</p>
+    </div>
+    <!-- ===== QUESTION-2 ===== -->
+    <div onclick="myFunction2()" class="accordion q2" id="accordion">
+        <div id="q2" class="icon"><i class='bx bx-plus rotate'></i></div>
+        <h5>Where do I live?</h5>
+    </div>
+    <div class="panel p2">
+        <p>I'm basically from Turkey but I was born and raised
+            in Damascus, Syria.
+        </p>
+    </div>
+    <!-- ===== QUESTION-3 ===== -->
+    <div onclick="myFunction3()" class="accordion q3" id="accordion">
+        <div id="q3" class="icon"><i class='bx bx-plus rotate'></i></div>
+        <h5>Why I do what I do?</h5>
+    </div>
+    <div class="panel p3">
+        <p>
+            I started creating content on Instagram and that's how
+            I gained popularity. I love teaching beginners because
+            when I was learning I had no one to help me. 
+        </p>
+    </div>
+    <!-- ===== QUESTION-4 ===== -->
+    <div onclick="myFunction4()" class="accordion q4" id="accordion">
+        <div id="q4" class="icon"><i class='bx bx-plus rotate'></i></div>
+        <h5>How to Approach you?</h5>
+    </div>
+    <div class="panel p4">
+        <p>
+            You can DM me on instagram or you can drop me an Email.
+            If i see your message, I will reply.
+        </p>
+    </div>
+</div>
+
+<!-- ========== MAIN JS ========== -->
+<script src="./js/app.js"></script>
+
+</body>
+</html>
